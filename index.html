@@ -1,55 +1,97 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>Esporte Total</title>
+  <meta charset="UTF-8">
+  <title>Esporte Total</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header, section, footer {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .produtos {
+      display: flex;
+      gap: 20px;
+    }
+    .produto {
+      width: 30%;
+    }
+  </style>
 </head>
 <body>
-    <!-- Logo e Título -->
-    <img src="imgs/image.png" alt="Logo da loja" width="150">
-    <h1>Esporte Total</h1>
 
-    <!-- Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="futebol.html">Futebol</a></li>
-            <li><a href="queimada.html">Queimada</a></li>
-        </ul>
-    </nav>
+<header>
+  <h1>Esporte Total</h1>
+  <p>Bem-vindo à Esporte Total! Aqui você encontra produtos e equipamentos esportivos de alta qualidade para diversas modalidades.</p>
+</header>
 
-    <h2>Bem-vindo à Esporte Total!</h2>
-    <p>Os melhores produtos para quem vive o esporte de verdade!</p>
+<section>
+  <h2>Imagens da Loja</h2>
+  <img src="imagens/loja1.jpg" alt="Imagem da loja Esporte Total">
+  <img src="imagens/loja2.jpg" alt="Interior da loja Esporte Total">
+</section>
 
-    <!-- Imagens da Loja -->
-    <img src="imgs/loja1.png" alt="Loja 1" width="300">
-    <img src="imgs/loja2.png" alt="Loja 2" width="300">
+<section>
+  <h2>Produtos em Destaque</h2>
+  <div class="produtos">
+    <div class="produto">
+      <a href="futebol/index.html">
+        <img src="imagens/futebol-destaque.jpg" alt="Chuteira de futebol">
+      </a>
+      <p>Chuteira profissional Nike</p>
+    </div>
+    <div class="produto">
+      <a href="basquete/index.html">
+        <img src="imagens/basquete-destaque.jpg" alt="Bola de basquete">
+      </a>
+      <p>Bola oficial NBA</p>
+    </div>
+    <div class="produto">
+      <a href="queimada/index.html">
+        <img src="imagens/queimada-destaque.jpg" alt="Touca de natação">
+      </a>
+      <p>Equipamento para Queimada</p>
+    </div>
+  </div>
+</section>
 
-    <h3>Produtos em Destaque</h3>
-    <a href="futebol.html"><img src="imgs/destaque_futebol.jpg" alt="Produto Futebol" width="200"></a>
-    <a href="queimada.html"><img src="imgs/destaque_queimada.jpg" alt="Produto Queimada" width="200"></a>
+<section>
+  <h2>Mapa da Loja</h2>
+  <p>Endereço: R. Dom Pedro I, 486 - Sandra Regina, Barreiras - BA, 47802-012</p>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15976228.29672298!2d-44.989847!3d-12.149985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x75f8abcb93bb781%3A0x574b443c24b823f6!2sEsporte%20Total!5e0!3m2!1spt-BR!2sbr!4v1749570034012!5m2!1spt-BR!2sbr"
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
 
-    <h3>Serviços e Produtos</h3>
-    <p>Chuteiras, bolas, camisetas, cones, redes e muito mais!</p>
+<section>
+  <h2>Formas de Pagamento</h2>
+  <ul>
+    <li>Cartão de Crédito</li>
+    <li>Cartão de Débito</li>
+    <li>Pix</li>
+    <li>Boleto Bancário</li>
+    <li>Dinheiro</li>
+  </ul>
+</section>
 
-    <h3>Formas de Pagamento</h3>
-    <ul>
-        <li>Cartão de crédito/débito</li>
-        <li>Pix</li>
-        <li>Dinheiro</li>
-    </ul>
+<footer>
+  <h3>Proprietária</h3>
+  <ul>
+    <li>Cristiane Martins Silva</li>
+    <li>Jurandir Santos</li>
+  </ul>
+</footer>
 
-    <h3>Localização</h3>
-    <!-- Aqui você pode colar o código do Google Maps -->
-    <iframe
-        src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12></iframe>"
-        width="600"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy">
-    </iframe>
-
-    <p><strong>Proprietário:</strong> Seu Nome Aqui</p>
 </body>
 </html>

@@ -2,22 +2,70 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Basquete</title>
+    <title>Esporte Total - Loja de Artigos Esportivos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #222; color: white; padding: 20px; text-align: center; }
+        section { padding: 20px; }
+        .produtos-destaque img { width: 200px; height: auto; cursor: pointer; margin: 10px; }
+        .imagens-loja img { width: 300px; margin: 10px; }
+    </style>
 </head>
 <body>
-    <img src="imgs/logo.png" alt="Logo da loja" width="150">
-    <h1>Esporte Total</h1>
 
-    <nav>
+    <header>
+        <h1>Esporte Total</h1>
+        <p>Sua loja completa de artigos esportivos</p>
+    </header>
+
+    <section>
+        <h2>Sobre a Loja</h2>
+        <p>Na Esporte Total, você encontra os melhores artigos esportivos para todas as modalidades. Atendemos com qualidade, variedade e preços acessíveis!</p>
+    </section>
+
+    <section class="produtos-destaque">
+        <h2>Produtos em Destaque</h2>
+        <a href="futebol/index.html"><img src="imagens/futebol-destaque.jpg" alt="Produto de Futebol"></a>
+        <a href="volei/index.html"><img src="imagens/volei-destaque.jpg" alt="Produto de Vôlei"></a>
+        <a href="basquete/index.html"><img src="imagens/basquete-destaque.jpg" alt="Produto de Basquete"></a>
+    </section>
+
+    <section class="imagens-loja">
+        <h2>Conheça Nossa Loja</h2>
+        <img src="imagens/loja1.jpg" alt="Interior da Loja">
+        <img src="imagens/loja2.jpg" alt="Fachada da Loja">
+    </section>
+
+    <section>
+        <h2>Onde Estamos</h2>
+        <p>Endereço: R. Dom Pedro I, 486 - Sandra Regina, Barreiras - BA, 47802-012</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7988114.160367924!2d-53.427346899999954!3d-12.149984599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x75f8abcb93bb781%3A0x574b443c24b823f6!2sEsporte%20Total!5e0!3m2!1spt-BR!2sbr!4v1749568205791!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+        <h2>Formas de Pagamento</h2>
         <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="futebol.html">Futebol</a></li>
-            <li><a href="basquete.html">Basquete</a></li>
+            <li>Cartão de Crédito</li>
+            <li>Cartão de Débito</li>
+            <li>Pix</li>
+            <li>Dinheiro</li>
+            <li>Boleto Bancário</li>
         </ul>
-    </nav>
+    </section>
 
-    <h2>Basquete</h2>
-    <p>Bolas, camisetas, tênis, cestas e acessórios para basquete!</p>
-    <img src="imgs/destaque_basquete.jpg" alt="Produto Basquete" width="300">
+    <section>
+        <h2>Proprietários</h2>
+        <ul>
+            <li>Seu Nome Aqui</li>
+            <li>João da Silva</li>
+            <li>Ana Souza</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Esporte Total - Todos os direitos reservados</p>
+    </footer>
+
 </body>
 </html>
